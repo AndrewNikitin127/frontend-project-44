@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-expressions */
 import readlineSync from 'readline-sync';
 
 export default function evenGame() {
@@ -21,7 +20,7 @@ export default function evenGame() {
 
     if (answer === correctAnswer) {
       console.log('Correct!');
-      count === maxCountOfTries ? console.log(`Congratulations, ${name}!`) : '';
+      if (count === maxCountOfTries) console.log(`Congratulations, ${name}!`);
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
       break;
