@@ -1,29 +1,16 @@
-import readlineSync from 'readline-sync';
+import { randomInteger, playGame } from '../index.js';
 
 export default function evenGame() {
-  const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+  const playerTask = 'Answer "yes" if the number is even, otherwise answer "no".';
+  const questions = [];
+  const correctAnswers = [];
 
-  const maxCountOfTries = 3;
+  for (let count = 0; count < 3; count += 1) {
+    const questionNum = randomInteger(1, 100);
+    const correctAnswer = questionNum % 2 === 0 ? 'yes' : 'no';
 
-  const name = readlineSync.question(
-    'Welcome to the Brain Games!\nMay I have your name?: ',
-  );
-
-  console.log(`Hello, ${name}!\nAnswer "yes" if the number is even, otherwise answer "no".`);
-
-  for (let count = 1; count <= maxCountOfTries; count += 1) {
-    const randomInt = randomInteger(0, 100);
-    console.log(`Question: ${randomInt}`);
-
-    const answer = readlineSync.question('Your answer: ');
-    const correctAnswer = randomInt % 2 !== 0 ? 'yes' : 'no';
-
-    if (answer === correctAnswer) {
-      console.log('Correct!');
-      if (count === maxCountOfTries) console.log(`Congratulations, ${name}!`);
-    } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
-      break;
-    }
+    questions.push(`${questionNum}`);
+    correctAnswers.push(correctAnswer);
   }
+  playGame(playerTask, questions, correctAnswers);
 }
