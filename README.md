@@ -8,3 +8,6 @@ https://asciinema.org/a/5Bxmy5NwIronrp29wlWl8V5Mh
 
 # My asciinema brain-calculator test
 https://asciinema.org/a/ldiamOZi3HDkq31KQyMuJm8ik
+
+# My asciinema brain-gcd test
+https://asciinema.org/a/Evgs7F0cg53rWYLnvYlCFEyL0
