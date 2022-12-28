@@ -14,3 +14,6 @@ https://asciinema.org/a/Evgs7F0cg53rWYLnvYlCFEyL0
 
 # My asciinema brain-progression test
 https://asciinema.org/a/W8zgLzI3AQBJhNyPSTR9gTroT
+
+# My asciinema brain-prime test
+https://asciinema.org/a/HGV6SiqVr0iFK8jCpuhkY3VLB

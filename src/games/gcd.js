@@ -1,3 +1,4 @@
+/* eslint-disable no-constant-condition */
 import { randomInteger, playGame } from '../index.js';
 
 function gcd(val1, val2) {
