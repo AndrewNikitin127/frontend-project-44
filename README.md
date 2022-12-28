@@ -6,8 +6,8 @@
 # My asciinema brain-even test
 https://asciinema.org/a/1YyJ6mnoqmsLlaNzZdI9Tn0Qe
 
-# My asciinema brain-calculator test
-https://asciinema.org/a/ldiamOZi3HDkq31KQyMuJm8ik
+# My asciinema brain-calc test
+https://asciinema.org/a/UGBD34JkfbNNxJNy6MrgsH25L
 
 # My asciinema brain-gcd test
 https://asciinema.org/a/Evgs7F0cg53rWYLnvYlCFEyL0
