@@ -11,3 +11,6 @@ https://asciinema.org/a/ldiamOZi3HDkq31KQyMuJm8ik
 
 # My asciinema brain-gcd test
 https://asciinema.org/a/Evgs7F0cg53rWYLnvYlCFEyL0
+
+# My asciinema brain-progression test
+https://asciinema.org/a/W8zgLzI3AQBJhNyPSTR9gTroT
