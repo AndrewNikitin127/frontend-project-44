@@ -3,17 +3,24 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/9f20800b12e821b10a72/maintainability)](https://codeclimate.com/github/AndrewNikitin127/frontend-project-44/maintainability)
 
-# My asciinema brain-even test
-https://asciinema.org/a/1YyJ6mnoqmsLlaNzZdI9Tn0Qe
+# Install
+make install
 
-# My asciinema brain-calc test
-https://asciinema.org/a/UGBD34JkfbNNxJNy6MrgsH25L
+# Run
+Commands to run games:
+brain-calc, brain-even, brain-games, brain-gcd, brain-prime, brain-progression
 
-# My asciinema brain-gcd test
-https://asciinema.org/a/Evgs7F0cg53rWYLnvYlCFEyL0
+# Brain-calc
+[![asciicast](https://asciinema.org/a/kX9NDzJcQs9dImlhkJMnJ74Ay.svg)](https://asciinema.org/a/kX9NDzJcQs9dImlhkJMnJ74Ay)
 
-# My asciinema brain-progression test
-https://asciinema.org/a/W8zgLzI3AQBJhNyPSTR9gTroT
+# Brain-even
+[![asciicast](https://asciinema.org/a/cTICPGTd40QJami1CcrAZFjXh.svg)](https://asciinema.org/a/cTICPGTd40QJami1CcrAZFjXh)
 
-# My asciinema brain-prime test
-https://asciinema.org/a/HGV6SiqVr0iFK8jCpuhkY3VLB
+# Brain-gcd
+[![asciicast](https://asciinema.org/a/nMwKMrVIujXy4vgdOKUnnrSjy.svg)](https://asciinema.org/a/nMwKMrVIujXy4vgdOKUnnrSjy)
+
+# Brain-prime
+[![asciicast](https://asciinema.org/a/Hy1wOr8lgMaYmS7jeDFR6TjHn.svg)](https://asciinema.org/a/Hy1wOr8lgMaYmS7jeDFR6TjHn)
+
+# Brain-progression
+[![asciicast](https://asciinema.org/a/5rdtERsBByS8QomyYql5lCGMT.svg)](https://asciinema.org/a/5rdtERsBByS8QomyYql5lCGMT)

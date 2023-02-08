@@ -15,12 +15,15 @@ export default function progressionGame() {
   const playerTask = 'What number is missing in the progression?';
   const questions = [];
   const correctAnswers = [];
+  const numberQuestions = 3;
 
-  for (let i = 0; i < 3; i += 1) {
-    const questionSerNum = getSeriesArithmeticProgression();
+  for (let i = 0; i < numberQuestions; i += 1) {
+    const numberSeries = getSeriesArithmeticProgression();
+    const correctAnswer = numberSeries.splice(randomInteger(0, 9), 1, '..').toString();
+    const question = numberSeries.join(' ');
 
-    correctAnswers.push(...questionSerNum.splice(randomInteger(0, 9), 1, '..'));
-    questions.push(questionSerNum.join(' '));
+    correctAnswers.push(correctAnswer);
+    questions.push(question);
   }
-  playGame(playerTask, questions, correctAnswers);
+  playGame(playerTask, questions, correctAnswers, numberQuestions);
 }

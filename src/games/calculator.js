@@ -5,19 +5,24 @@ export default function calculatorGame() {
   const operators = ['+', '-', '*'];
   const questions = [];
   const correctAnswers = [];
+  const numberQuestions = 3;
 
-  for (let count = 0; count < 3; count += 1) {
+  for (let i = 0; i < numberQuestions; i += 1) {
     const operand1 = randomInteger(0, 15);
     const operand2 = randomInteger(0, 15);
     const operator = operators[randomInteger(0, 2)];
 
+    const question = `${operand1} ${operator} ${operand2}`;
+    let correctAnswer = '';
+
     switch (operator) {
-      case '+': correctAnswers.push(`${operand1 + operand2}`); break;
-      case '-': correctAnswers.push(`${operand1 - operand2}`); break;
-      case '*': correctAnswers.push(`${operand1 * operand2}`); break;
+      case '+': correctAnswer = (`${operand1 + operand2}`); break;
+      case '-': correctAnswer = (`${operand1 - operand2}`); break;
+      case '*': correctAnswer = (`${operand1 * operand2}`); break;
       default: break;
     }
-    questions.push(`${operand1} ${operator} ${operand2}`);
+    questions.push(question);
+    correctAnswers.push(correctAnswer);
   }
-  playGame(playerTask, questions, correctAnswers);
+  playGame(playerTask, questions, correctAnswers, numberQuestions);
 }

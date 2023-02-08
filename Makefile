@@ -2,6 +2,7 @@
 
 install: #устанавить зависимые модули
 	npm ci
+	sudo npm link
 
 brain-games:
 	node bin/brain-games.js
